@@ -27,8 +27,6 @@ on:
   release:
   status:
   watch:
-  workflow_run:
-    workflows: ["enarxbot"]
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
