@@ -34,7 +34,8 @@ on:
 
 jobs:
   enarxbot:
-    name: enarxbot
     runs-on: ubuntu-latest
+    name: enarxbot
     steps:
+      - uses: actions/checkout@v2
       - uses: enarx/bot@master
