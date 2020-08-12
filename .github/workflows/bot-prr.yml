@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     name: enarxbot-prr
     steps:
-      - run: true
+      - run: cat $GITHUB_EVENT_PATH
