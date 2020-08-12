@@ -35,7 +35,7 @@ jobs:
   enarxbot:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: foo
+      TEST_SECRET: ${{ secrets.TEST_SECRET }}
     name: enarxbot
     steps:
       - uses: enarx/bot@dev
