@@ -36,4 +36,4 @@ jobs:
     runs-on: ubuntu-latest
     name: enarxbot
     steps:
-      - uses: enarx/bot@master
+      - uses: enarx/bot@dev
