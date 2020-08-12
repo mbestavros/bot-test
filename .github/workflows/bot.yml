@@ -1,3 +1,5 @@
+name: enarxbot
+
 on:
   check_run:
   check_suite:
@@ -25,11 +27,11 @@ on:
   release:
   status:
   watch:
-  workflow_run:
+#  workflow_run:
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
-name: enarxbot
+
 jobs:
   enarxbot:
     runs-on: ubuntu-latest
