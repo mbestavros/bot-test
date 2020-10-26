@@ -50,4 +50,4 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
     name: enarxbot
     steps:
-      - uses: enarx/bot@master
+      - uses: mbestavros/enarxbot@test-prod
